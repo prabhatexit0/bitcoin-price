@@ -1,0 +1,19 @@
+#price-cont {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#price-img-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.price-img {
+  height: 10rem;
+  width: 10rem;
+}

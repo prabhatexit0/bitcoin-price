@@ -1,0 +1,66 @@
+#auth-main {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#auth-card-cont {
+    height: 80%;
+    width: 40%;
+    padding: 2rem 8rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-title {
+  margin-bottom: 4rem;
+}
+
+.auth-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-password-label, .auth-email-label {
+  font-size: 1.25rem;
+}
+
+.auth-password-input, .auth-email-input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.auth-form-submit {
+  width: max-content;
+  height: 2rem;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+#login-with-google {
+  width: max-content;
+  height: 2rem;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 1rem;
+}

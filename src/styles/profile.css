@@ -1,0 +1,19 @@
+#profile-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: rgb(43, 43, 43);
+}
+
+#profile-sign-out-button {
+  border: none;
+  outline: none;
+  padding: 1em 2em;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
